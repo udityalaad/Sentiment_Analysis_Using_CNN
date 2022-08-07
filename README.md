@@ -11,7 +11,7 @@ https://github.com/othneildrew/Best-README-Template -->
   <img src="Read_Me_Content/TopLogo.png" alt="TopLogo">
   
   <p align="center">
-    A Convolutional Neural Network to perform Natural Language Processing (NLP) on large review data sets !
+    A Convolutional Neural Network (CNN) to perform Natural Language Processing (NLP) on large review data sets !
   </p>
 </div>
 
