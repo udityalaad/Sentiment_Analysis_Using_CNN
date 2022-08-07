@@ -11,7 +11,7 @@ https://github.com/othneildrew/Best-README-Template -->
   <img src="Read_Me_Content/TopLogo.png" alt="TopLogo">
   
   <p align="center">
-    A Convolutional Neural Network to perform Sentiment Analysis on large review data sets !
+    A Convolutional Neural Network to perform Natural Language Processing (NLP) on large review data sets !
   </p>
 </div>
 
@@ -108,9 +108,9 @@ https://github.com/othneildrew/Best-README-Template -->
     * Since, we have a one-hot-encoded output, hence it makes sense to use Softmax here (which would normalize the output to a network of probability distribution).
 
     ##### Remaining Configuration:
-    * Number of Epochs = 5: Post epoch=5, we observed that the training accuracy was getting very close to 97-99%; and hence limited the epochs, taking it as a sign of convergence.
-    * Loss Function = Binary Cross-entropy: Cross-entropy is an ideal loss function to be used, when we have ‘softmax’ at the output layer - returning a one-hot encoded vector. And since, we have only 2 classes, hence we use Binary Cross-entropy as our loss function.
-    * Optimizer = ‘Adam’, with default initial learning rate
+    * <b>Number of Epochs = 5:</b> Post epoch=5, we observed that the training accuracy was getting very close to 97-99%; and hence limited the epochs, taking it as a sign of convergence.
+    * <b>Loss Function = Binary Cross-entropy:</b> Cross-entropy is an ideal loss function to be used, when we have ‘softmax’ at the output layer - returning a one-hot encoded vector. And since, we have only 2 classes, hence we use Binary Cross-entropy as our loss function.
+    * <b>Optimizer = ‘Adam’</b>, with default initial learning rate
     * Batch Size = 1024
 
   <spacer type="vertical" height="4" width="2"></spacer>
