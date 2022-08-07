@@ -11,7 +11,7 @@ https://github.com/othneildrew/Best-README-Template -->
   <img src="Read_Me_Content/TopLogo.png" alt="TopLogo">
   
   <p align="center">
-    A Convolutional Neural Network to perform Sentiment Analysis on large reveiw data sets !
+    A Convolutional Neural Network to perform Sentiment Analysis on large review data sets !
   </p>
 </div>
 
@@ -37,7 +37,7 @@ https://github.com/othneildrew/Best-README-Template -->
 ## About The Project
   In this project, we make use of TensorFlow's keras library to create a Convolutional Neural Network, that can effectively classify real review data as positive or negative using the CNN alone, without having to utilize any word embedding or representation packages such as Word2Vec or Glove.
 
-  For case study analaysis, we use IMDB's large movie review dataset that is publicly avaiable. The results of and discussions on analysis can be found in one of the below sections.
+  For case study analaysis, we use IMDB's large movie review dataset that is publicly available. The results and discussions of the analysis can be found in one of the below sections.
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
