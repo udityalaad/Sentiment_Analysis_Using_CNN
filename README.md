@@ -80,7 +80,7 @@ https://github.com/othneildrew/Best-README-Template -->
        * Positive and negative directory files were traversed & the corresponding inputs and labels were created:
           Inputs: String containing file content
           Labels: One hot-encoded, with [1, 0] representing positive and [0,1] representing negative reviews.
-       The labels do not require any further processing.
+          The labels do not require any further processing.
 
        * Next, we needed the input in a form that is better understandable to the machine. Hence, we tokenized the input; i.e.: mapped reviews to vector integers, with unique words represented by unique numbers.
        * Converted the input matrix to a uniform format: We need the 2D array to have the same number of features (columns) per each input (row), to be used inside the network/model. Hence, we zero pad to have a ‘balanced length’.
@@ -111,7 +111,6 @@ https://github.com/othneildrew/Best-README-Template -->
     * Batch Size = 1024
 
   <spacer type="vertical" height="4" width="2"></spacer>
-  
 
   * #### Training Output
     (With training data split into 90%-10% train-validation sets.)
@@ -122,8 +121,8 @@ https://github.com/othneildrew/Best-README-Template -->
   <spacer type="vertical" height="4" width="2"></spacer>
 
   * #### Testing Output
-    (With training data split into 90%-10% train-validation sets.)
     <img src="Read_Me_Content/Case_Study/Testing_Output.jpg" alt="Testing Output">
+    
     * As we can see, despite a high training accuracy, we achieve a relatively lower testing accuracy. We tried many different configurations, and found the above network to provide the best testing accuracy.
     * We also tried, by filtering out some special characters, but the difference was not significant.
     * We believe that having a larger training corpus (with better distribution) would help improve the testing
