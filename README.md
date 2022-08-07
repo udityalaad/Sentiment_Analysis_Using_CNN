@@ -78,12 +78,15 @@ https://github.com/othneildrew/Best-README-Template -->
     1. The data has been provided in the form of multiple text files, where the content of the file is the input, while the label is represented by the parent folder’s name (‘neg’ – meaning negative, ‘pos’ – meaning positive)
     2. For each of ‘test’ and ‘train’ folders, the following pre-processing steps were performed:
        * Positive and negative directory files were traversed & the corresponding inputs and labels were created:
-          Inputs: String containing file content
-          Labels: One hot-encoded, with [1, 0] representing positive and [0,1] representing negative reviews.
+       
+          <b>Inputs:</b> String containing file content.
+          
+          <b>Labels:</b> One hot-encoded, with [1, 0] representing positive and [0,1] representing negative reviews.
+          
           The labels do not require any further processing.
 
        * Next, we needed the input in a form that is better understandable to the machine. Hence, we tokenized the input; i.e.: mapped reviews to vector integers, with unique words represented by unique numbers.
-       * Converted the input matrix to a uniform format: We need the 2D array to have the same number of features (columns) per each input (row), to be used inside the network/model. Hence, we zero pad to have a ‘balanced length’.
+       * <b>Converted the input matrix to a uniform format:</b> We need the 2D array to have the same number of features (columns) per each input (row), to be used inside the network/model. Hence, we zero pad to have a ‘balanced length’.
         We choose the length as either ‘half of the maximum length among inputs’, or as the ‘average length of inputs’ (whichever is higher)
 
   <spacer type="vertical" height="4" width="2"></spacer>
