@@ -111,7 +111,7 @@ https://github.com/othneildrew/Best-README-Template -->
     * <b>Number of Epochs = 5:</b> Post epoch=5, we observed that the training accuracy was getting very close to 97-99%; and hence limited the epochs, taking it as a sign of convergence.
     * <b>Loss Function = Binary Cross-entropy:</b> Cross-entropy is an ideal loss function to be used, when we have ‘softmax’ at the output layer - returning a one-hot encoded vector. And since, we have only 2 classes, hence we use Binary Cross-entropy as our loss function.
     * <b>Optimizer = ‘Adam’</b>, with default initial learning rate
-    * Batch Size = 1024
+    * <b>Batch Size = 1024</b>
 
   <spacer type="vertical" height="4" width="2"></spacer>
 
