@@ -117,7 +117,6 @@ https://github.com/othneildrew/Best-README-Template -->
     (With training data split into 90%-10% train-validation sets.)
     <img src="Read_Me_Content/Case_Study/Training_Output.jpg" alt="Training Output">
     * As we can see in the above figures, even though training accuracy keeps increasing with each epoch; after a certain point – the validation accuracy starts fluctuating (mostly decreasing). The highest validation accuracy that we were able to achieve was ~88.5%.
-
     * The same trend can be seen in case of loss, albeit in the opposite direction (as loss is expected to decrease).
 
   <spacer type="vertical" height="4" width="2"></spacer>
@@ -126,9 +125,7 @@ https://github.com/othneildrew/Best-README-Template -->
     (With training data split into 90%-10% train-validation sets.)
     <img src="Read_Me_Content/Case_Study/Testing_Output.jpg" alt="Testing Output">
     * As we can see, despite a high training accuracy, we achieve a relatively lower testing accuracy. We tried many different configurations, and found the above network to provide the best testing accuracy.
-
     * We also tried, by filtering out some special characters, but the difference was not significant.
-
     * We believe that having a larger training corpus (with better distribution) would help improve the testing
 accuracy.
 
